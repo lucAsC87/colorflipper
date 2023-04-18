@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Convergence', sans-serif;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+li:first-of-type{
+    color: lightseagreen;
+}
+
+nav {
+    margin-top: 0;
+    padding: 3px 0;
+    background-color: white;
+    font-family: 'Alef', sans-serif;
+    font-size: larger;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#butFlip {
+    color: black;
+    padding: 10px 35px;
+    background-color: transparent;
+    font-family: 'Convergence', sans-serif;
+    font-weight: bold;
+    border: solid 2px lightgray;
+    border-radius: 5px;
+}
+
+#mainblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#colorName {
+    color: blueviolet;
+}
